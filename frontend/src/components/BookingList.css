@@ -1,0 +1,27 @@
+/* BookingList.css */
+.table-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.booking-table th {
+  background-color: #f4f4f4;
+}
+
+.booking-table tr:hover {
+  background-color: #f1f1f1;
+}

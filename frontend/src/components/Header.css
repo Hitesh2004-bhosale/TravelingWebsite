@@ -1,0 +1,84 @@
+/* Header Styles */
+header {
+  background-color: white;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky; /* Ensures the header stays visible */
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+header input.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+}
+
+header button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  border: none;
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
+
+header nav a {
+  color: #007bff;
+  margin-right: 15px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #f0f0f0;
+}
+
+header .dropdown-toggle {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+header .dropdown-menu {
+  border-radius: 10px;
+}
+
+header .d-flex .rounded-circle {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+header .d-flex .rounded-circle:hover {
+  border-color: #007bff;
+}
+
+.logo {
+  width: 150px; /* Adjusted size */
+  height: auto;
+  object-fit: contain;
+}

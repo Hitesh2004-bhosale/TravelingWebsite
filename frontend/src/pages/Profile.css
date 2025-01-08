@@ -1,0 +1,84 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Reduced by 20% */
+  margin-top: 30px;
+  margin-top: 50%;
+}
+
+.profile-card {
+  width: 70%; /* Reduced by 30% */
+  max-width: 500px;
+  height: 70%; /* Reduced by 20% */
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px; /* Added padding to top */
+  padding-left:20px ;
+  margin-left: 35%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.profile-image-container{
+  padding-left: 35%;
+}
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.profile-card h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-card p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.profile-card .form-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.profile-card .form-container input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better box look */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.profile-card .form-container input:focus {
+  border-color: #007bff; /* Focus border color */
+  outline: none;
+}
+
+.profile-card .form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-card .form-container button:hover {
+  background-color: #0056b3;
+}

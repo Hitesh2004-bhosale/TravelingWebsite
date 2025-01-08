@@ -1,0 +1,13 @@
+/* Custom styles for the card and inputs */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control-sm {
+  height: 35px; /* Custom height for smaller input fields */
+  font-size: 14px; /* Smaller text */
+}
+
+.btn-sm {
+  font-size: 14px; /* Button text size */
+}

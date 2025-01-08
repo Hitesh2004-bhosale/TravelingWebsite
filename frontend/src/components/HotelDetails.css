@@ -1,0 +1,30 @@
+/* Container for the hotel and comment card */
+.container{
+    height: 100vh;
+}
+.d-flex {
+  display: flex;
+  align-items: flex-start; /* Aligns both cards at the top */
+  justify-content: space-between; /* Adds space between hotel and comment cards */
+}
+
+.hotel-card {
+  flex: 1; /* Hotel card takes up equal width */
+}
+
+.comment-section {
+  flex: 1; /* Comment section takes up equal width */
+  max-width: 600px; /* Optionally set max-width to keep the comment section compact */
+}
+
+@media (max-width: 768px) {
+  /* Stack the hotel card and comment section on smaller screens */
+  .d-flex {
+    flex-direction: column; /* Stacks the elements vertically */
+  }
+
+  .hotel-card,
+  .comment-section {
+    max-width: 100%; /* Both cards take up full width */
+  }
+}
